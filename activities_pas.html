@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nos Activités - Jappo</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <!-- Barre de navigation (identique à index.html) -->
+   <!-- Barre de navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="index.html" class="logo">JAPPO</a>
+            <div class="navbar-links">
+                <a href="index.html" class="active">Accueil</a>
+                <a href="about.html">À propos</a>
+                <a href="activities.html">Activités</a>
+                <a href="#">Événements</a>
+                <a href="#">Contact</a>
+                <a href="#" class="btn-join">Rejoindre</a>
+            </div>
+            <div class="menu-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- Hero Section -->
+    <header class="hero hero-activities">
+        <div class="container">
+            <h1>Nos Activités</h1>
+            <p>Découvrez toutes nos actions et initiatives.</p>
+        </div>
+    </header>
+
+    <!-- Catégories d'activités -->
+    <section class="activity-categories">
+        <div class="container">
+            <div class="categories-tabs">
+                <button class="tab-btn active" data-category="all">Toutes</button>
+                <button class="tab-btn" data-category="sport">Sport</button>
+                <button class="tab-btn" data-category="solidarity">Solidarité</button>
+                <button class="tab-btn" data-category="help">Entraide</button>
+            </div>
+            
+            <div class="activities-container">
+                <!-- Activité 1 -->
+                <div class="activity-item" data-category="sport">
+                    <img src="images/activity-sport1.jpg" alt="Football solidaire">
+                    <div class="activity-info">
+                        <h3>Football solidaire</h3>
+                        <p class="activity-date"><i class="far fa-calendar-alt"></i> Tous les samedis, 14h-16h</p>
+                        <p class="activity-location"><i class="fas fa-map-marker-alt"></i> Stade municipal</p>
+                        <p>Tournoi de football ouvert à tous, quelque soit votre niveau. L'occasion de faire du sport et de rencontrer du monde.</p>
+                        <a href="#" class="btn-small">En savoir plus</a>
+                    </div>
+                </div>
+                
+                <!-- Activité 2 -->
+                <div class="activity-item" data-category="solidarity">
+                    <img src="images/activity-solidarity1.jpg" alt="Collecte alimentaire">
+                    <div class="activity-info">
+                        <h3>Collecte alimentaire</h3>
+                        <p class="activity-date"><i class="far fa-calendar-alt"></i> 1er dimanche du mois</p>
+                        <p class="activity-location"><i class="fas fa-map-marker-alt"></i> Place du marché</p>
+                        <p>Collecte et distribution de denrées alimentaires aux plus démunis de notre quartier.</p>
+                        <a href="#" class="btn-small">En savoir plus</a>
+                    </div>
+                </div>
+                
+                <!-- Activité 3 -->
+                <div class="activity-item" data-category="help">
+                    <img src="images/activity-help1.jpg" alt="Aide aux devoirs">
+                    <div class="activity-info">
+                        <h3>Aide aux devoirs</h3>
+                        <p class="activity-date"><i class="far fa-calendar-alt"></i> Lundi et jeudi, 17h-19h</p>
+                        <p class="activity-location"><i class="fas fa-map-marker-alt"></i> Local Jappo</p>
+                        <p>Soutien scolaire pour les enfants du quartier par nos bénévoles.</p>
+                        <a href="#" class="btn-small">En savoir plus</a>
+                    </div>
+                </div>
+                
+                <!-- Activité 4 -->
+                <div class="activity-item" data-category="sport">
+                    <img src="images/activity-sport2.jpg" alt="Yoga en plein air">
+                    <div class="activity-info">
+                        <h3>Yoga en plein air</h3>
+                        <p class="activity-date"><i class="far fa-calendar-alt"></i> Mercredi, 18h-19h</p>
+                        <p class="activity-location"><i class="fas fa-map-marker-alt"></i> Parc central</p>
+                        <p>Séances de yoga accessibles à tous pour se détendre et prendre soin de soi.</p>
+                        <a href="#" class="btn-small">En savoir plus</a>
+                    </div>
+                </div>
+                
+                <!-- Activité 5 -->
+                <div class="activity-item" data-category="solidarity">
+                    <img src="images/activity-solidarity2.jpg" alt="Atelier CV">
+                    <div class="activity-info">
+                        <h3>Atelier CV et recherche d'emploi</h3>
+                        <p class="activity-date"><i class="far fa-calendar-alt"></i> 2ème mardi du mois</p>
+                        <p class="activity-location"><i class="fas fa-map-marker-alt"></i> Local Jappo</p>
+                        <p>Nos bénévoles aident à la rédaction de CV et préparent aux entretiens d'embauche.</p>
+                        <a href="#" class="btn-small">En savoir plus</a>
+                    </div>
+                </div>
+                
+                <!-- Activité 6 -->
+                <div class="activity-item" data-category="help">
+                    <img src="images/activity-help2.jpg" alt="Bricolage solidaire">
+                    <div class="activity-info">
+                        <h3>Bricolage solidaire</h3>
+                        <p class="activity-date"><i class="far fa-calendar-alt"></i> Sur rendez-vous</p>
+                        <p class="activity-location"><i class="fas fa-map-marker-alt"></i> À domicile</p>
+                        <p>Aide pour les petites réparations et travaux domestiques pour les personnes en difficulté.</p>
+                        <a href="#" class="btn-small">En savoir plus</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Rejoindre -->
+    <section class="cta-join">
+        <div class="container">
+            <h2>Vous souhaitez participer à nos activités ?</h2>
+            <p>Rejoignez-nous et devenez acteur de la solidarité dans votre quartier.</p>
+            <a href="#" class="btn-primary">Devenir membre</a>
+        </div>
+    </section>
+
+    <!-- Newsletter (identique à index.html) -->
+    <section class="newsletter">
+        <!-- Copier la même newsletter que index.html -->
+    </section>
+
+    <!-- Pied de page (identique à index.html) -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-about">
+                    <h3>JAPPO</h3>
+                    <p>Association pour l'entraide, la solidarité et le sport.</p>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <h3>Liens utiles</h3>
+                    <ul>
+                        <li><a href="index.html">Accueil</a></li>
+                        <li><a href="about.html">À propos</a></li>
+                        <li><a href="activities.html">Activités</a></li>
+                        <li><a href="events.html">Événements</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h3>Contact</h3>
+                    <p><i class="fas fa-map-marker-alt"></i>Ndiamb Fall, Louga 31000</p>
+                    <p><i class="fas fa-phone"></i> +221 76 881 74 56</p>
+                    <p><i class="fas fa-envelope"></i> contact@jappo.org</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 Association Jappo. Tous droits réservés.</p>
+                <div class="legal-links">
+                    <a href="#">Mentions légales</a>
+                    <a href="#">Politique de confidentialité</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+    <script>
+        // Filtrage des activités
+        document.addEventListener('DOMContentLoaded', function() {
+            const tabBtns = document.querySelectorAll('.tab-btn');
+            const activityItems = document.querySelectorAll('.activity-item');
+            
+            tabBtns.forEach(btn => {
+                btn.addEventListener('click', function() {
+                    // Retirer la classe active de tous les boutons
+                    tabBtns.forEach(btn => btn.classList.remove('active'));
+                    // Ajouter la classe active au bouton cliqué
+                    this.classList.add('active');
+                    
+                    const category = this.getAttribute('data-category');
+                    
+                    // Filtrer les activités
+                    activityItems.forEach(item => {
+                        if (category === 'all' || item.getAttribute('data-category') === category) {
+                            item.style.display = 'flex';
+                        } else {
+                            item.style.display = 'none';
+                        }
+                    });
+                });
+            });
+        });
+    </script>
+</body>
+</html>
